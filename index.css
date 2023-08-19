@@ -1,0 +1,68 @@
+table{
+    padding: 15px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-image: url(img/pexels-andrew-neel-3178786.jpg);
+    border-radius: 5px;
+}
+th{
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 25px;
+}
+td{
+    background-color: transparent;
+    border: 3px solid white;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+form{
+    background-image: url(img/istockphoto-1362365251-170667a.webp);
+    margin: auto;
+    padding: 30px 30px;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+input{
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    transition: all 0.5s;
+}
+input:hover{       
+    border-color: rgb(57, 91, 91);
+}
+input:hover::placeholder{
+    color:rgb(97, 122, 147);
+}
+input::placeholder{
+    text-align: left;
+    transition: all 0.5s;
+    color: white;
+}
+.submit{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: grey;
+    width: 50%;
+    margin:15px auto;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: transparent;
+}
